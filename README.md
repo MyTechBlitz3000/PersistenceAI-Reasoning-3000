@@ -16,3 +16,38 @@ PersistenceAI is a personal AI companion designed to assist with school, work, a
 ---
 
 ## Project Structure
+PersistenceAI/
+├─ .gitignore
+├─ LICENSE
+├─ README.md
+├─ SwiftApp/ # iOS SwiftUI app
+├─ PythonModel/ # LLM training scripts and datasets
+
+---
+
+## Installation
+
+### Swift App
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/PersistenceAI.git
+Open SwiftApp/PersistenceAI.xcodeproj in Xcode 18+.
+Build and run on iPhone/iPad.
+Python Model (Optional)
+Navigate to PythonModel/.
+Install dependencies:
+pip install torch transformers datasets accelerate
+Train or fine-tune your model (example script included in train_model.py).
+Usage
+On-device: Use Core ML model (PersistenceAI.mlmodel) for offline inference.
+API: Alternatively, run your GitHub-trained model as a REST API and connect via Swift.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+Contact
+Created by PersistenceAI Team. For questions, contributions, or issues, please open a GitHub issue.
+
+---
+
+You can now **save this as `README.md`** in your repo root—it’s fully ready to go.  
+
+If you want, I can **:contentReference[oaicite:0]{index=0}** next.
