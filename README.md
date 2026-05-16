@@ -16,6 +16,7 @@ PersistenceAI is a personal AI companion designed to assist with school, work, a
 ---
 
 ## Project Structure
+
 PersistenceAI/
 ├─ .gitignore
 ├─ LICENSE
@@ -31,6 +32,8 @@ PersistenceAI/
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/PersistenceAI.git
+```
+
 Open SwiftApp/PersistenceAI.xcodeproj in Xcode 18+.
 Build and run on iPhone/iPad.
 Python Model (Optional)
@@ -46,8 +49,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contact
 Created by PersistenceAI Team. For questions, contributions, or issues, please open a GitHub issue.
 
----
 
-You can now **save this as `README.md`** in your repo root—it’s fully ready to go.  
-
-If you want, I can **:contentReference[oaicite:0]{index=0}** next.
