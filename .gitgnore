@@ -1,0 +1,39 @@
+# --------------------------
+# Swift / Xcode
+# --------------------------
+DerivedData/
+build/
+*.xcworkspace
+*.xcuserstate
+*.moved-aside
+*.swiftpm
+*.xcodeproj/project.xcworkspace/
+*.xcuserdatad
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# --------------------------
+# Python / PyTorch
+# --------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pt
+*.pth
+*.ckpt
+.env
+*.log
+
+# --------------------------
+# General / Editors / OS
+# --------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.bak
